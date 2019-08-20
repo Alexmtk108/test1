@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -50,7 +50,7 @@
                     <div class="col-md-12">
                         <div class="card">
                             <div class="card-header"><h3>Комментарии</h3></div>
-
+                            
                             <div class="card-body">
                               <div class="alert alert-success" role="alert">
                                 Комментарий успешно добавлен
@@ -62,7 +62,8 @@
                                     //echo $user['id'];
                                     // foreach ($user as $value);{
                                     //  echo $user['id'];}
-                                    //                                
+                                    
+
                                     ?>
                                   <img src="img/no-user.jpg" class="mr-3" alt="..." width="64" height="64">
                                   <div class="media-body">
@@ -70,7 +71,7 @@
                                         <?php 
                                     echo $user['id'];
                                     ?>
-                                        
+                                     
                                     </h5> 
                                     <span><small>12/10/2025</small></span>
                                     <p>
