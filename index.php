@@ -58,7 +58,7 @@
 
                                 <div class="media">
                                     <?php
-                                    $user =  array('id'=>'John Doe1', 'id2'=>'John Doe2', 'id3'=>'John Doe3' );
+                                    $user =  array('id'=>'John Doe1', 'comment'=>'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe aspernatur, ullam doloremque deleniti, sequi obcaecati.', "date"=>'12/10/2025');
                                     //echo $user['id'];
                                     // foreach ($user as $value);{
                                     //  echo $user['id'];}
@@ -73,9 +73,13 @@
                                     ?>
                                      
                                     </h5> 
-                                    <span><small>12/10/2025</small></span>
+                                    <span><small><?php 
+                                    echo $user['date'];
+                                    ?></small></span>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe aspernatur, ullam doloremque deleniti, sequi obcaecati.
+                                        <?php 
+                                    echo $user['comment'];
+                                    ?>
                                     </p>
                                   </div>
                                 </div>
