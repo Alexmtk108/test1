@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -58,21 +58,25 @@
 
                                 <div class="media">
                                     <?php
-                                    $user =  array('id0'=>'John Doe',
-                                                         'id1'=>'Василий Петров',
-                                                         'id2'=>'Петров Василий'
-                                                        );
-                                    foreach ($user as $value){
-                                     echo "$value <br>";}   
+                                    $user =  array('id'=>'John Doe1', 'id2'=>'John Doe2', 'id3'=>'John Doe3' );
+                                    //echo $user['id'];
+                                    // foreach ($user as $value);{
+                                    //  echo $user['id'];}
+                                    //                                
                                     ?>
-                                 <!--  <img src="img/no-user.jpg" class="mr-3" alt="..." width="64" height="64">
+                                  <img src="img/no-user.jpg" class="mr-3" alt="..." width="64" height="64">
                                   <div class="media-body">
-                                    <h5 class="mt-0">John Doe</h5> 
+                                    <h5 class="mt-0">
+                                        <?php 
+                                    echo $user['id'];
+                                    ?>
+                                        
+                                    </h5> 
                                     <span><small>12/10/2025</small></span>
                                     <p>
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe aspernatur, ullam doloremque deleniti, sequi obcaecati.
                                     </p>
-                                  </div> -->
+                                  </div>
                                 </div>
                             </div>
                         </div>
